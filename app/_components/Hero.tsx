@@ -38,13 +38,13 @@ function Hero() {
   }
 
   return (
-    <div className="mt-24 w-full flex justify-center">
+    <div className="mt-24 mx-20 md:mx-0 w-full flex justify-center">
       {/* content */}
       <div className="max-w-3xl text-center space-y-8">
         <h1 className="text-xl md:text-5xl font-bold">
           Hey, I am your AI <span className="text-primary">Tour</span> Guide
         </h1>
-        <p className="text-lg">
+        <p className="text-lg mx-10">
           Tell me where you want to go and plan your trip with me. I can suggest
           destinations, create custom itineraries, recommend attractions, and
           help you discover hidden gems. Let’s make your next adventure

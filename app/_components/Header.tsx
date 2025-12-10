@@ -21,7 +21,7 @@ function Header() {
       </div>
 
       {/* menu */}
-      <div className="flex items-center gap-8">
+      <div className="items-center gap-8 hidden md:flex">
         {menuOptions.map((menu, index) => (
           <Link href={menu.href} key={index}>
             <h2 className="text-lg hover:scale-105 transition-all hover:text-primary">
